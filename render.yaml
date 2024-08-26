@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: freqtrade-bot
+    env: docker
+    plan: starter
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: FREQTRADE_CONFIG
+        value: "/app/config.json"
