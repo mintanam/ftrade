@@ -17,4 +17,5 @@ RUN pip install freqtrade
 EXPOSE 8080
 
 # Run Freqtrade when the container launches
-CMD ["freqtrade", "trade", "--config", "config.json"]
+CMD ["freqtrade", "trade", "--config", "config.json", "--logfile", "/app/freqtrade.log"]
+
