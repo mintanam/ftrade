@@ -1,0 +1,9 @@
+freqtrade==2023.7
+numpy==1.25.2
+pandas==2.1.1
+scipy==1.11.1
+matplotlib==3.7.2
+ta-lib==0.4.0
+ccxt==4.0.82
+websockets==11.0.3
+cachetools==5.3.1
